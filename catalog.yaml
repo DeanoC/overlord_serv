@@ -1,0 +1,14 @@
+# Overlord Catalog YAML File for the SERV bit-serial CPUs
+info:
+  name: "component.serv"
+  version: "1.0.0"
+  author: ""
+  description: "SERV is an award-winning bit-serial RISC-V core"
+
+definitions:
+- type: cpu.riscv32.serv.servant
+  ports:
+  registers:
+  drivers:
+  triple: riscv32-none-elf
+  width: 32
