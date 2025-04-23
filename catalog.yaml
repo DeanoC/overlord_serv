@@ -12,3 +12,15 @@ definitions:
   drivers:
   triple: riscv32-none-elf
   width: 32
+  gateware:
+    type: inline
+    inline:
+      actions:
+        - action: sources
+          language: verilog
+          files: []
+        - action: read_rtl_top
+          language: verilog
+          file: {}
+      parameters: []
+      
