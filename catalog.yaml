@@ -21,6 +21,6 @@ definitions:
           files: []
         - action: read_rtl_top
           language: verilog
-          file: {}
+          file: ""
       parameters: []
       
